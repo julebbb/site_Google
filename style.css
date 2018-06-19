@@ -6,7 +6,7 @@ body {
   font-family: arial, sans-serif;
   font-size: small;
 }
-/*horizontal list in right-top*/
+/*Horizontal list in right-top*/
 ul {
   width: auto;
   height: 50px;
@@ -63,5 +63,18 @@ ul {
   margin: 100px;
   margin-left: auto;
   margin-right: auto;
+}
 
+#search_bar {
+  display: block;
+  width: 475px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#button_search{
+  display: block;
+  width: 297px;
+  margin-left: auto;
+  margin-right: auto;
 }
