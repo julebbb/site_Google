@@ -1,3 +1,42 @@
 body {
-  background-color: blue;
+  background-color: white;
+  margin: 0px;
+  font-family: arial, sans-serif;
+  font-size: small;
+}
+ul {
+  width:auto;
+  height: 200px;
+}
+.li_nav {
+  float: right;
+  display: inline;
+  margin-left: 20px;
+}
+
+.li_nav a {
+  color: #222222;
+  text-decoration: none;
+
+}
+
+.li_nav a:hover {
+  color: #414141;
+  text-decoration: underline;
+}
+#connexion {
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #4386f9;
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid ;
+}
+#img_app {
+  width: 25px;
 }
