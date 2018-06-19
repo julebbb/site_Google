@@ -76,7 +76,7 @@ ul {
   border: 1px lightgray solid;
   box-shadow: 0px 1px 2px lightgrey;
 }
-
+/*div*/
 #button_search{
   display: block;
   width: 297px;
@@ -96,7 +96,6 @@ ul {
     margin: 2px;
     border: 1px solid #F4F4F4;
     border-radius: 2px;
-
 }
 
 .button_search:hover {
@@ -106,3 +105,40 @@ ul {
     box-shadow: 1px 1px 1px aliceblue inset;
     box-shadow: 1px 1px 1px lavender;
   }
+
+/*Footer*/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#land, .footer{
+  display: inherit;
+  height: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #F2F2F2;
+  border: 1px solid lightgray;
+}
+
+#land {
+  color: gray;
+  font-size: 15px;
+}
+
+.info_left a {
+  float: left;
+  color: gray;
+  text-decoration: none;
+  margin-right: 35px;
+  line-height: 45px;
+}
+
+.info_right a {
+  float: right;
+  color: gray;
+  text-decoration: none;
+  margin-left: 35px;
+  line-height: 35px;
+}
