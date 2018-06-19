@@ -60,7 +60,8 @@ ul {
   display: block;
   clear: both;
   width: auto;
-  margin: 100px;
+  margin-top: 100px;
+  margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -70,6 +71,10 @@ ul {
   width: 475px;
   margin-left: auto;
   margin-right: auto;
+  padding: 12px;
+  border-radius: 3px;
+  border: 1px lightgray solid;
+  box-shadow: 0px 1px 2px lightgrey;
 }
 
 #button_search{
@@ -77,4 +82,27 @@ ul {
   width: 297px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
+
+.button_search {
+    font-family: arial, serif;
+    font-weight: bold;
+    font-size: small;
+    color: gray;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 2px;
+    border: 1px solid #F4F4F4;
+    border-radius: 2px;
+
+}
+
+.button_search:hover {
+    color: black;
+    border: 1px solid lightgray;
+    background-color: #F2F2F2;
+    box-shadow: 1px 1px 1px aliceblue inset;
+    box-shadow: 1px 1px 1px lavender;
+  }
