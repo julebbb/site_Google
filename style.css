@@ -1,20 +1,26 @@
 body {
-  height: 100%;
-  width: 100%;
+  
   margin: 0px;
   background-color: white;
   font-family: arial, sans-serif;
   font-size: small;
+  min-width: 980px;
 }
+html, body {
+  height: 100%;
+}
+
 /*Horizontal list in right-top*/
 ul {
+  position: absolute;
+  right: 20px;
+  top: 0;
   width: auto;
   height: 50px;
 }
 
 .li_nav {
-  float: right;
-  display: inline;
+  display: inline-block;
   margin-left: 20px;
   height: 50px;
   line-height: 32px;
@@ -52,15 +58,15 @@ ul {
 
 #img_app {
   width: 25px;
-  padding-top: 3px;
+  vertical-align: middle;
 }
 
 /*Google and this search form*/
 #logo {
-  display: block;
+  display: inherit;
   clear: both;
   width: auto;
-  margin-top: 100px;
+  padding-top: 205px;
   margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
@@ -108,18 +114,20 @@ ul {
 
 /*Footer*/
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
+  overflow: hidden;
 }
 
-#land, .footer{
+#land, .footer {
   display: inherit;
   height: 45px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #F2F2F2;
   border: 1px solid lightgray;
+  overflow: hidden;
 }
 
 #land {
@@ -128,17 +136,29 @@ footer {
 }
 
 .info_left a {
-  float: left;
   color: gray;
   text-decoration: none;
   margin-right: 35px;
   line-height: 45px;
 }
 
+.info_left {
+  position: absolute;
+  left: 20px;
+}
+
+.info_right {
+  position: absolute;
+  right: 20px
+}
+
 .info_right a {
-  float: right;
   color: gray;
   text-decoration: none;
   margin-left: 35px;
-  line-height: 35px;
+  line-height: 45px;
+}
+
+.info_right a:hover, .info_left a:hover {
+  text-decoration: underline;
 }
