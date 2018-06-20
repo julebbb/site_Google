@@ -1,21 +1,17 @@
 body {
-
   margin: 0px;
   background-color: white;
   font-family: arial, sans-serif;
   font-size: small;
   min-width: 980px;
 }
-html, body {
-  height: 100%;
-}
 
 /*Horizontal list in right-top*/
 header {
-  width: 100%;
   min-width: 980px;
   position: relative;
 }
+
 ul {
   position: absolute;
   right: 20px;
@@ -69,8 +65,6 @@ ul {
 /*Google and this search form*/
 #logo {
   display: inherit;
-  clear: both;
-  width: auto;
   padding-top: 205px;
   margin-bottom: 25px;
   margin-left: auto;
@@ -87,6 +81,11 @@ ul {
   border: 1px lightgray solid;
   box-shadow: 0px 1px 2px lightgrey;
 }
+
+#search_bar:hover, #search_bar:active {
+    box-shadow: 0px 2px 7px lightgray;
+}
+
 /*div*/
 #button_search{
   display: block;
